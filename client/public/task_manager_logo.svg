@@ -1,0 +1,27 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Clipboard/notepad shape -->
+  <rect x="18" y="12" width="28" height="36" rx="3" fill="#ffffff"/>
+  <rect x="20" y="14" width="24" height="32" fill="#f8fafc"/>
+  
+  <!-- Clip at top -->
+  <rect x="26" y="8" width="12" height="8" rx="2" fill="#6b7280"/>
+  <rect x="28" y="10" width="8" height="4" rx="1" fill="#9ca3af"/>
+  
+  <!-- Checkmark items -->
+  <!-- Item 1 - Completed -->
+  <circle cx="24" cy="22" r="3" fill="#10b981"/>
+  <path d="M22.5 22l1 1 2-2" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <rect x="30" y="20.5" width="12" height="1.5" fill="#6b7280" rx="0.75"/>
+  
+  <!-- Item 2 - Completed -->
+  <circle cx="24" cy="30" r="3" fill="#10b981"/>
+  <path d="M22.5 30l1 1 2-2" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <rect x="30" y="28.5" width="10" height="1.5" fill="#6b7280" rx="0.75"/>
+  
+  <!-- Item 3 - Pending -->
+  <circle cx="24" cy="38" r="3" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1"/>
+  <rect x="30" y="36.5" width="14" height="1.5" fill="#9ca3af" rx="0.75"/>
+</svg>

@@ -1,4 +1,4 @@
-// Backend: server.js (Node.js + Express + MongoDB) - Fixed Auth0 Implementation
+// Backend: server.js (Node.js + Express + MongoDB)
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 
 mongoose.connect(process.env.MONGO_URI);
 
-// Updated Task model to include user ID
+// Task model for database
 const Task = mongoose.model('Task', {
   title: String,
   completed: Boolean,
@@ -21,7 +21,7 @@ const Task = mongoose.model('Task', {
   userId: { type: String, required: true }, // Auth0 user ID
 });
 
-// User Profile model for additional user data
+// User Profile model for database
 const UserProfile = mongoose.model('UserProfile', {
   userId: { type: String, required: true, unique: true }, // Auth0 user ID
   displayName: String,

@@ -148,17 +148,21 @@ A modern, secure task management application built with React, Node.js, MongoDB,
 
 ```
 task-manager-fullstack/
-├── client/                 # React frontend
+├── client/                             # React frontend
 │   ├── src/
-│   │   ├── App.jsx        # Main application component
-│   │   ├── UserProfile.jsx # Profile management component
-│   │   ├── App.css        # Styles and theming
-│   │   └── main.jsx       # App entry point with Auth0 setup
-│   ├── .env               # Frontend environment variables
+│   │   ├── components/
+│   │   │   ├── Icons.jsx               # Stores all Icon components
+│   │   │   ├── LoginButtons.jsx        # Stores all Login components
+│   │   │   └── SafetyComponents.jsx    # Stores Safety UI features  
+│   │   ├── App.jsx                     # Main application component
+│   │   ├── UserProfile.jsx             # Profile management component
+│   │   ├── App.css                     # Styles and theming
+│   │   └── main.jsx                    # App entry point with Auth0 setup
+│   ├── .env                            # Frontend environment variables
 │   └── package.json
-├── server/                 # Node.js backend
-│   ├── server.js          # Express server with all routes
-│   ├── .env               # Backend environment variables
+├── server/                             # Node.js backend
+│   ├── server.js                       # Express server with all routes
+│   ├── .env                            # Backend environment variables
 │   └── package.json
 └── README.md
 ```

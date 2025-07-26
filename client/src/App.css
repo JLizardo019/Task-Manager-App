@@ -505,10 +505,6 @@ body {
   color: var(--text-secondary);
 }
 
-.profile-form {
-  /* Add proper spacing between form elements */
-}
-
 .form-group {
   margin-bottom: 1.5rem;
 }
@@ -657,7 +653,7 @@ body {
   margin: 1rem 0 2rem 0;
 }
 
-/* User info in header - Add profile button */
+/* User info in header */
 .user-info-expanded {
   display: flex;
   align-items: center;

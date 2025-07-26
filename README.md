@@ -2,6 +2,8 @@
 
 A modern, secure task management application built with React, Node.js, MongoDB, and Auth0 authentication. Features a beautiful dark theme, user profiles with auto-generated avatars, and comprehensive task management capabilities.
 
+[Try it out!](https://jl-task-manager-app.netlify.app/)
+
 ## ✨ Features
 
 ### 🔐 **Authentication & Security**
@@ -218,12 +220,12 @@ task-manager-fullstack/
 
 ## 🚀 Deployment
 
-### Frontend (Netlify/Vercel)
+### Frontend (Netlify)
 1. Build the frontend: `npm run build`
 2. Deploy the `dist` folder
 3. Update environment variables for production
 
-### Backend (Railway/Render/Heroku)
+### Backend (Railway)
 1. Deploy the `server` folder
 2. Set environment variables
 3. Update CORS origins for production domain
